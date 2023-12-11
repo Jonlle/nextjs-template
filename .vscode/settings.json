@@ -11,6 +11,11 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 120,
+  "editor.codeActionsOnSave": {
+    "source.formatDocument": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["typescript", "typescriptreact"],
   "prettier.useEditorConfig": true,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
